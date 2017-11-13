@@ -1,0 +1,41 @@
+Running: F:\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/asus5/Desktop/P4/mips/mips_tb_isim_beh.exe -prj C:/Users/asus5/Desktop/P4/mips/mips_tb_beh.prj work.mips_tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/asus5/Desktop/P4/mips/datapath/pc.v" into library work
+Analyzing Verilog file "C:/Users/asus5/Desktop/P4/mips/datapath/npc.v" into library work
+Analyzing Verilog file "C:/Users/asus5/Desktop/P4/mips/datapath/mux.v" into library work
+Analyzing Verilog file "C:/Users/asus5/Desktop/P4/mips/datapath/im.v" into library work
+Analyzing Verilog file "C:/Users/asus5/Desktop/P4/mips/datapath/gpr.v" into library work
+Analyzing Verilog file "C:/Users/asus5/Desktop/P4/mips/datapath/ext.v" into library work
+Analyzing Verilog file "C:/Users/asus5/Desktop/P4/mips/datapath/dm.v" into library work
+Analyzing Verilog file "C:/Users/asus5/Desktop/P4/mips/datapath/alu.v" into library work
+Analyzing Verilog file "C:/Users/asus5/Desktop/P4/mips/control/ctrl.v" into library work
+Analyzing Verilog file "C:/Users/asus5/Desktop/P4/mips/mips.v" into library work
+Analyzing Verilog file "C:/Users/asus5/Desktop/P4/mips/mips_tb.v" into library work
+Analyzing Verilog file "F:/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 161076 KB
+Fuse CPU Usage: 1108 ms
+Compiling module pc
+Compiling module npc
+Compiling module im_4k
+Compiling module gpr
+Compiling module alu
+Compiling module ext
+Compiling module mux_ALUSrc
+Compiling module mux_Rd
+Compiling module mux_WDSrc
+Compiling module dm_4k
+Compiling module ctrl
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 14 Verilog Units
+Built simulation executable C:/Users/asus5/Desktop/P4/mips/mips_tb_isim_beh.exe
+Fuse Memory Usage: 165628 KB
+Fuse CPU Usage: 1281 ms

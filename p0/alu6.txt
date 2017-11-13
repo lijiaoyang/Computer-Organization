@@ -1,0 +1,21 @@
+module alu6(
+    input [3:0] A,
+    input [3:0] B,
+    input [2:0] ALUOP,
+    output reg[3:0] C
+    );
+	 
+	 always @(*)
+		begin
+			case(ALUOP)
+				3'b000:C = A + B;
+				3'b001:C = A - B;
+				3'b010:C = A & B;
+				3'b011:C = A | B;
+				3'b100:C = ~(A & B);
+				3'b101:C = ~(A | B);
+			endcase
+		end
+
+
+endmodule
